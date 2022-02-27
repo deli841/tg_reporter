@@ -82,7 +82,7 @@ for element in df.Name:
     a = 0
     time.sleep(random.randrange(10, 50) / 10)
     print(f"\n\nAttempting to block: {element}")
-    while a < ATTEMPTS:
+    while a < 3:
         try:
             print(f"    Attempt: {a}")
             search_div = driver.find_element(by=By.CLASS_NAME, value="input-search")
