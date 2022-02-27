@@ -20,7 +20,7 @@ a = 0
 if platform.system() == "Linux":
     driver = webdriver.Chrome(service=Service(executable_path='/'.join([DRIVERPATH, driver_path])))
 elif platform.system() == 'Windows':  # for windows
-    driver = webdriver.Chrome(service=Service(executable_path='\\'.join([DRIVERPATH, driver_path + ".exe"])))
+    driver = webdriver.Chrome(service=Service(executable_path='\\'.join([DRIVERPATH, driver_path])))
 
 driver.get("http://web.telegram.org/k/")
 
