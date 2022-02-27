@@ -1,0 +1,6 @@
+/venv/
+/chromedriver/
+/test.py
+/.idea/
+/__pycache__/
+/compressed.zip
