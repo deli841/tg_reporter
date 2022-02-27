@@ -51,7 +51,7 @@ while a < ATTEMPTS:
         a = 0
         break
     except BaseException as err:
-        print(str(err))
+        #print(str(err))
         a += 1
         time.sleep(1)
 
@@ -66,6 +66,7 @@ while a < ATTEMPTS:
         print("code_input=", [el.text for el in code_input])
         code_input = code_input[a % 3]
         if not code_input.is_enabled():
+            print("DISABLED")
             raise ValueError("DISABLED")
         code_input.clear()
         code_input.send_keys(code)
@@ -73,7 +74,7 @@ while a < ATTEMPTS:
         a = 0
         break
     except BaseException as err:
-        print(str(err))
+        #print(str(err))
         a += 1
         time.sleep(1)
 
@@ -106,7 +107,15 @@ for element in df.Name:
 
             context_menu = driver.find_element(By.ID, "bubble-contextmenu")
             all_children = context_menu.find_elements(By.XPATH, ".//*")
-            child = [child for child in all_children if child.text == "Report" and child.tag_name == 'div'][0]
+            children = [child for child in all_children if child.text == "Report" and child.tag_name == 'div']
+            if len(children) == 0:
+                message = messages[-2]
+                action.context_click(message).perform()
+                context_menu = driver.find_element(By.ID, "bubble-contextmenu")
+                all_children = context_menu.find_elements(By.XPATH, ".//*")
+                children = [child for child in all_children if child.text == "Report" and child.tag_name == 'div']
+
+            child = children[0]
             child.click()
             time.sleep(1)
 
@@ -132,7 +141,7 @@ for element in df.Name:
             print("  Blocked Successfully")
             break
         except BaseException as err:
-            print(str(err))
+            #print(str(err))
             a += 1
             time.sleep(1)
 
