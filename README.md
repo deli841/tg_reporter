@@ -1,6 +1,6 @@
 # What is it?
 This script opens an emulated version of a browser, runs Telegram where you log in with your account, and reports messages in 200+ propaganda channels on your behalf.
-The script was developed by https://github.com/deli841. Message me in case you have any questions or want to contribute to the Telegram channel database or the algorithm.
+The script was developed by https://github.com/deli841. Message or email me (841deli@gmail.com) in case you have any questions or want to contribute to the Telegram channel database or the algorithm.
 
 # How to use it?
 To work with the software, you’ll need to install Python and Git:
