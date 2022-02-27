@@ -108,7 +108,7 @@ for element in df.Name:
             context_menu = driver.find_element(By.ID, "bubble-contextmenu")
             all_children = context_menu.find_elements(By.XPATH, ".//*")
             children = [child for child in all_children if child.text == "Report" and child.tag_name == 'div']
-            if len(children) == 0:
+            if len(children) == 0:  # message is sponsored
                 message = messages[-2]
                 action.context_click(message).perform()
                 context_menu = driver.find_element(By.ID, "bubble-contextmenu")
