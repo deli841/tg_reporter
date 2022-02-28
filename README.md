@@ -10,6 +10,9 @@ To work with the software, you’ll need to install Python and Git:
 
 
 ## For Windows Users:
+
+(find our English video guide [here](https://www.youtube.com/watch?v=6FFjEhVeERQ))
+
 1. Clone git repo.
     1. Open any folder on your laptop, run cmd in that folder, and type 
 	`git clone https://github.com/deli841/tg_reporter` 
@@ -23,6 +26,8 @@ To work with the software, you’ll need to install Python and Git:
 9. Run the code: `python main.py`
 10. You will be able to see your laptop open the Chrome browser. **Please do not enter or press anything manually in the open browser window.**  Interacting directly with the user interface will break the script. The browser window is there for you to see what is going on in your Telegram. **Enter all the information through the terminal when prompted (phone number and login code).** Please be aware that this information is not stored anywhere and is inaccessible from outside your device.
 
+Instructions for Linux and MacOS platforms are coming soon.
+
 ## Notes:
 - In case something does not work, try rerunning all of the scripts again.
 - In case you accidentally interact with the browser window and the script breaks, exit, and run python main.py again.
@@ -30,5 +35,5 @@ To work with the software, you’ll need to install Python and Git:
 - **To stop the script, press Ctrl + C in the cmd. Closing the browser window does not stop the script.**
 
 ## Additional:
-- Please feel free to contact me via email or GitHub with any ideas and feedback.
+- Please feel free to contact me via email or GitHub with any ideas, feedback, or help.
 
