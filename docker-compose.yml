@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+
+    seleniumhub:
+        image: selenium/hub
+        volumes:
+            -   ./:/app
+        build: ./
+        ports:
+            - 4444:4444
+
+    chromenode:
+        image: selenium/node-chrome
+        ports:
+            - 4578
+        links:
+            - seleniumhub:hub
