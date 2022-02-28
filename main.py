@@ -41,8 +41,9 @@ while a < ATTEMPTS:
 while a < ATTEMPTS:
     try:
         phone_editable_div = driver.find_elements(by=By.CLASS_NAME, value='input-field-input')[1]
+        phone_number = input("Enter your phone number, starting with a '+': ")
         phone_editable_div.clear()
-        phone_editable_div.send_keys(input("Enter your phone number, starting with a '+': "))
+        phone_editable_div.send_keys(phone_number)
         time.sleep(1)
         next_span = driver.find_element(by=By.XPATH, value="//*[contains(text(), 'Next')]")
         next_button = next_span.find_element(by=By.XPATH,
