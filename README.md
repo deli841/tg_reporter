@@ -2,11 +2,15 @@
 This script opens an emulated version of a browser, runs Telegram where you log in with your account, and reports messages in 200+ propaganda channels on your behalf.
 The script was developed by https://github.com/deli841. Message or email me (841deli@gmail.com) in case you have any questions or want to contribute to the Telegram channel database or the algorithm.
 
+**It is also crucial to keep the number of reports high, so please share the project with your friends!**
+
 # How to use it?
 To work with the software, you’ll need to install Python and Git:
 
 - To install Python, follow the instructions for your OS here: https://www.python.org/downloads/release/python-384/
 - To install Git, follow the instructions here: https://github.com/git-guides/install-git
+
+Note that you should not have two-step verification enabled - it is not supported by the script as of now. we are working to implement this feature soon. You can turn off this feature by doing the following on Telegram on your phone: `Settings -> Privacy and Security -> Two step verification -> Off`
 
 
 ## For Windows Users:
