@@ -11,7 +11,7 @@ To work with the software, you’ll need to install Python and Git:
 
 ## For Windows Users:
 
-(find our English video guide [here](https://www.youtube.com/watch?v=6FFjEhVeERQ) and Ukrainian video guide [here](https://www.youtube.com/watch?v=ZCqAoU1ZLXY))
+(find our English video guide [here](https://www.youtube.com/watch?v=6FFjEhVeERQ) and Українська інструкція тут [here](https://www.youtube.com/watch?v=ZCqAoU1ZLXY))
 
 1. Clone git repo.
     1. Open any folder on your laptop, run cmd in that folder, and type 
