@@ -137,6 +137,10 @@ for element in df.Name:
                 buttons[-2].click()
             elif buttons[-1].text == 'REPORT':
                 buttons[-1].click()
+                
+            #going back after successful block attempt
+            back_button = driver.find_element(By.CLASS_NAME, "sidebar-close-button")
+            back_button.click()
 
             a = 0
             print("  Blocked Successfully")
