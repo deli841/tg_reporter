@@ -137,12 +137,19 @@ for element in df.Name:
                 buttons[-2].click()
             elif buttons[-1].text == 'REPORT':
                 buttons[-1].click()
+                
+            back_button = driver.find_element(By.CLASS_NAME, "sidebar-close-button")
+            back_button.click()
 
             a = 0
             print("  Blocked Successfully")
             break
         except BaseException as err:
             #print(str(err))
+            if a == 2: 
+                print("  Can't handle this channel")
+                back_button = driver.find_element(By.CLASS_NAME, "sidebar-close-button")
+                back_button.click()
             a += 1
             time.sleep(1)
 
