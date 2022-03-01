@@ -147,6 +147,10 @@ for element in df.Name:
             break
         except BaseException as err:
             #print(str(err))
+            if a == 2: 
+                print("  Can't handle this channel")
+                back_button = driver.find_element(By.CLASS_NAME, "sidebar-close-button")
+                back_button.click()
             a += 1
             time.sleep(1)
 
