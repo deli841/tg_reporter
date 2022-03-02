@@ -1,6 +1,6 @@
 ### Інструкція до користування українською [тут](https://www.youtube.com/watch?v=ZCqAoU1ZLXY)
 
-### Find our English video guide [here](https://www.youtube.com/watch?v=6FFjEhVeERQ) and Українська інструкція тут [here])
+### Find our English video guide [here](https://www.youtube.com/watch?v=6FFjEhVeERQ)
 
 # What is it?
 This script opens an emulated version of a browser, runs Telegram where you log in with your account, and reports messages in 200+ propaganda channels on your behalf.
