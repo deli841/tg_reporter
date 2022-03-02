@@ -1,3 +1,6 @@
+Інструкція до користування українською [тут](https://www.youtube.com/watch?v=ZCqAoU1ZLXY)
+Find our English video guide [here](https://www.youtube.com/watch?v=6FFjEhVeERQ) and Українська інструкція тут [here])
+
 # What is it?
 This script opens an emulated version of a browser, runs Telegram where you log in with your account, and reports messages in 200+ propaganda channels on your behalf.
 The script was developed by https://github.com/deli841. Message or email me (841deli@gmail.com) in case you have any questions or want to contribute to the Telegram channel database or the algorithm.
@@ -14,8 +17,6 @@ Note that you should not have two-step verification enabled - it is not supporte
 
 
 ## For Windows Users:
-
-(find our English video guide [here](https://www.youtube.com/watch?v=6FFjEhVeERQ) and Українська інструкція тут [here](https://www.youtube.com/watch?v=ZCqAoU1ZLXY))
 
 1. Clone git repo.
     1. Open any folder on your laptop, run cmd in that folder, and type 
